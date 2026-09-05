@@ -1,1 +1,23 @@
-# ?? 3D Canvas & GLSL Shader Application`n`n**Developer:** Rizwan Ali Khoso  `n**Live Production URL:** https://creative-kitsune-52cf6e.netlify.app  `n**Repository:** https://github.com/rizwan123-ui/my-3d-app  `n`n---`n`n## ?? Architecture Overview`nBuilt with React, Three.js, React Three Fiber, and Tailwind CSS. Features full-screen GLSL fragment shaders, interactive 3D mesh rendering, and responsive WCAG AA compliant hero overlays.`n`n## ??? Local Run Instructions`n```bash`n# 1. Clone repository`ngit clone [https://github.com/rizwan123-ui/my-3d-app.git](https://github.com/rizwan123-ui/my-3d-app.git)`n`n# 2. Install dependencies`nnpm install`n`n# 3. Start development server`nnpm run dev`n````n`n## ?? Environment Variables`n| Variable Name | Description | Required |`n|---|---|---|`n| `VITE_APP_TITLE` | Application Title Header | No |`n| `VITE_ANALYTICS_ID` | Telemetry & Analytics Tracker | No |`n`n## ?? Production Hygiene & Rate Limiting`n* **Input Capping:** Client-side prompt length is capped at 500 characters to prevent token abuse.`n* **Streaming Timeouts:** Serverless handlers enforce `maxDuration = 30s`.`n* **SPA Routing:** Public `_redirects` configured for Netlify 200 fallback.`n`n## ?? Honest "How AI Built This" Statement`n* **Cursor AI & Gemini Integration:** Used for Three.js matrix math verification and GLSL shader base templates.`n* **Manual Refactoring:** All React state hooks, accessibility overlays, and performance DPR caps (`Math.min(window.devicePixelRatio, 2)`) were engineered and verified manually.
+# My 3D App — Interactive Three.js Configurator
+
+An interactive 3D web application designed for users seeking real-time 3D visualization and customization. Built with React, Vite, and Three.js, and deployed on Netlify.
+
+## 🚀 Live Demo
+- **Production Site:** https://dynamic-toffee-804c60.netlify.app
+- **Repository:** https://github.com/rizwan123-ui/my-3d-app
+
+## 🛠️ Quick Setup (Reproducible Guide)
+Follow these steps to run the application locally:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/rizwan123-ui/my-3d-app.git](https://github.com/rizwan123-ui/my-3d-app.git)
+
+# 2. Navigate to project directory
+cd my-3d-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Run development server
+npm run dev
