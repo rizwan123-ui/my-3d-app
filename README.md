@@ -1,16 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# ?? 3D Canvas & GLSL Shader Application`n`n**Developer:** Rizwan Ali Khoso  `n**Live Production URL:** https://creative-kitsune-52cf6e.netlify.app  `n**Repository:** https://github.com/rizwan123-ui/my-3d-app  `n`n---`n`n## ?? Architecture Overview`nBuilt with React, Three.js, React Three Fiber, and Tailwind CSS. Features full-screen GLSL fragment shaders, interactive 3D mesh rendering, and responsive WCAG AA compliant hero overlays.`n`n## ??? Local Run Instructions`n```bash`n# 1. Clone repository`ngit clone [https://github.com/rizwan123-ui/my-3d-app.git](https://github.com/rizwan123-ui/my-3d-app.git)`n`n# 2. Install dependencies`nnpm install`n`n# 3. Start development server`nnpm run dev`n````n`n## ?? Environment Variables`n| Variable Name | Description | Required |`n|---|---|---|`n| `VITE_APP_TITLE` | Application Title Header | No |`n| `VITE_ANALYTICS_ID` | Telemetry & Analytics Tracker | No |`n`n## ?? Production Hygiene & Rate Limiting`n* **Input Capping:** Client-side prompt length is capped at 500 characters to prevent token abuse.`n* **Streaming Timeouts:** Serverless handlers enforce `maxDuration = 30s`.`n* **SPA Routing:** Public `_redirects` configured for Netlify 200 fallback.`n`n## ?? Honest "How AI Built This" Statement`n* **Cursor AI & Gemini Integration:** Used for Three.js matrix math verification and GLSL shader base templates.`n* **Manual Refactoring:** All React state hooks, accessibility overlays, and performance DPR caps (`Math.min(window.devicePixelRatio, 2)`) were engineered and verified manually.
